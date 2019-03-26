@@ -1,0 +1,2811 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Utgard</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <link rel="icon" href="img/ico/favicon.ico">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive" id="logo" src="img/2017napis.png" alt="Logo">
+
+                    </div>
+                    <div class="col-sm-8">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5 col-sm-offset-7">
+                        <!--<h1 style="color:#c47500;">15. - 16. júl 2017</h1>
+
+                        <h2 style="color:white; line-height: 1.5;">Jasenové</h2>
+
+                        <img class="img-responsive" id="logo" src="img/2017datum.png" alt="Logo">
+                        <img class="img-responsive" id="logo" src="img/2017miesto.png" alt="Logo">-->
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <div class="container-fluid">
+
+
+        <nav class="navbar navbar-default " role="navigation" data-spy="affix" data-offset-top="500">
+
+            <div class="navbar-header" id="navigacia">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">Navigácia</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand">Hlavné menu</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Domov</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">O festivale</a>
+                    </li>
+                    <li class="active">
+                        <a href="services.html">Galéria</a>
+                    </li>
+                    <li>
+                        <a href="location.html">Kde nás nájdete</a>
+                    </li>
+                    <li>
+                        <a href="program.html">Program</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Kontakt</a>
+                    </li>
+                    <li>
+                        <a href="partneri.html">Partneri</a>
+                    </li>
+                    <li>
+                        <a href="dan.html">2% pre Utgardar</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <!--
+    <div class="container-fluid">
+        <div class="well">
+            <div class="row">
+                <p align="center">Tu môžete vidieť zopár fotiek z našej činnosti.</p>
+            </div>
+
+        </div>
+    </div>
+-->
+
+
+
+
+
+    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <h3 class="ancient">Foto sekcia</h3>
+        <br>
+        <div class="well">
+
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#fotky2017">Ročník 2017</button> Pre zobrazenie kliknite na tlačidlo
+
+            <br>
+            <br>
+
+            <div id="fotky2017" class="collapse">
+                <a href="img/fotky/2017/001.jpg" title="Foto">
+                    <img src="img/fotky/2017/001_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/002.jpg" title="Foto">
+                    <img src="img/fotky/2017/002_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/003.jpg" title="Foto">
+                    <img src="img/fotky/2017/003_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/004.jpg" title="Foto">
+                    <img src="img/fotky/2017/004_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/005.jpg" title="Foto">
+                    <img src="img/fotky/2017/005_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/006.jpg" title="Foto">
+                    <img src="img/fotky/2017/006_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/007.jpg" title="Foto">
+                    <img src="img/fotky/2017/007_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/008.jpg" title="Foto">
+                    <img src="img/fotky/2017/008_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/009.jpg" title="Foto">
+                    <img src="img/fotky/2017/009_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/010.jpg" title="Foto">
+                    <img src="img/fotky/2017/010_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/011.jpg" title="Foto">
+                    <img src="img/fotky/2017/011_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/012.jpg" title="Foto">
+                    <img src="img/fotky/2017/012_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/013.jpg" title="Foto">
+                    <img src="img/fotky/2017/013_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/014.jpg" title="Foto">
+                    <img src="img/fotky/2017/014_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/015.jpg" title="Foto">
+                    <img src="img/fotky/2017/015_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/016.jpg" title="Foto">
+                    <img src="img/fotky/2017/016_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/017.jpg" title="Foto">
+                    <img src="img/fotky/2017/017_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/018.jpg" title="Foto">
+                    <img src="img/fotky/2017/018_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/019.jpg" title="Foto">
+                    <img src="img/fotky/2017/019_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/020.jpg" title="Foto">
+                    <img src="img/fotky/2017/020_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/021.jpg" title="Foto">
+                    <img src="img/fotky/2017/021_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/022.jpg" title="Foto">
+                    <img src="img/fotky/2017/022_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017203.jpg" title="Foto">
+                    <img src="img/fotky/2017/023_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/024.jpg" title="Foto">
+                    <img src="img/fotky/2017/024_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/025.jpg" title="Foto">
+                    <img src="img/fotky/2017/025_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/026.jpg" title="Foto">
+                    <img src="img/fotky/2017/026_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/027.jpg" title="Foto">
+                    <img src="img/fotky/2017/027_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/028.jpg" title="Foto">
+                    <img src="img/fotky/2017/028_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/029.jpg" title="Foto">
+                    <img src="img/fotky/2017/029_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/030.jpg" title="Foto">
+                    <img src="img/fotky/2017/030_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/031.jpg" title="Foto">
+                    <img src="img/fotky/2017/031_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/032.jpg" title="Foto">
+                    <img src="img/fotky/2017/032_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/033.jpg" title="Foto">
+                    <img src="img/fotky/2017/033_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/034.jpg" title="Foto">
+                    <img src="img/fotky/2017/034_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/035.jpg" title="Foto">
+                    <img src="img/fotky/2017/035_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/036.jpg" title="Foto">
+                    <img src="img/fotky/2017/036_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/037.jpg" title="Foto">
+                    <img src="img/fotky/2017/037_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/038.jpg" title="Foto">
+                    <img src="img/fotky/2017/038_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/039.jpg" title="Foto">
+                    <img src="img/fotky/2017/039_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/040.jpg" title="Foto">
+                    <img src="img/fotky/2017/040_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/041.jpg" title="Foto">
+                    <img src="img/fotky/2017/041_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/042.jpg" title="Foto">
+                    <img src="img/fotky/2017/042_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/043.jpg" title="Foto">
+                    <img src="img/fotky/2017/043_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/044.jpg" title="Foto">
+                    <img src="img/fotky/2017/044_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/045.jpg" title="Foto">
+                    <img src="img/fotky/2017/045_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/046.jpg" title="Foto">
+                    <img src="img/fotky/2017/046_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/047.jpg" title="Foto">
+                    <img src="img/fotky/2017/047_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/048.jpg" title="Foto">
+                    <img src="img/fotky/2017/048_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/049.jpg" title="Foto">
+                    <img src="img/fotky/2017/049_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/050.jpg" title="Foto">
+                    <img src="img/fotky/2017/050_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/051.jpg" title="Foto">
+                    <img src="img/fotky/2017/051_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/052.jpg" title="Foto">
+                    <img src="img/fotky/2017/052_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/053.jpg" title="Foto">
+                    <img src="img/fotky/2017/053_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/054.jpg" title="Foto">
+                    <img src="img/fotky/2017/054_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/055.jpg" title="Foto">
+                    <img src="img/fotky/2017/055_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/056.jpg" title="Foto">
+                    <img src="img/fotky/2017/056_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/057.jpg" title="Foto">
+                    <img src="img/fotky/2017/057_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/058.jpg" title="Foto">
+                    <img src="img/fotky/2017/058_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/059.jpg" title="Foto">
+                    <img src="img/fotky/2017/059_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/060.jpg" title="Foto">
+                    <img src="img/fotky/2017/060_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/061.jpg" title="Foto">
+                    <img src="img/fotky/2017/061_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/062.jpg" title="Foto">
+                    <img src="img/fotky/2017/062_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/063.jpg" title="Foto">
+                    <img src="img/fotky/2017/063_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/064.jpg" title="Foto">
+                    <img src="img/fotky/2017/064_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/065.jpg" title="Foto">
+                    <img src="img/fotky/2017/065_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/066.jpg" title="Foto">
+                    <img src="img/fotky/2017/066_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/067.jpg" title="Foto">
+                    <img src="img/fotky/2017/067_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/068.jpg" title="Foto">
+                    <img src="img/fotky/2017/068_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/069.jpg" title="Foto">
+                    <img src="img/fotky/2017/069_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/070.jpg" title="Foto">
+                    <img src="img/fotky/2017/070_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/071.jpg" title="Foto">
+                    <img src="img/fotky/2017/071_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/072.jpg" title="Foto">
+                    <img src="img/fotky/2017/072_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/073.jpg" title="Foto">
+                    <img src="img/fotky/2017/073_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/074.jpg" title="Foto">
+                    <img src="img/fotky/2017/074_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/075.jpg" title="Foto">
+                    <img src="img/fotky/2017/075_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/076.jpg" title="Foto">
+                    <img src="img/fotky/2017/076_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/077.jpg" title="Foto">
+                    <img src="img/fotky/2017/077_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/078.jpg" title="Foto">
+                    <img src="img/fotky/2017/078_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/079.jpg" title="Foto">
+                    <img src="img/fotky/2017/079_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/080.jpg" title="Foto">
+                    <img src="img/fotky/2017/080_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/081.jpg" title="Foto">
+                    <img src="img/fotky/2017/081_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/082.jpg" title="Foto">
+                    <img src="img/fotky/2017/082_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/083.jpg" title="Foto">
+                    <img src="img/fotky/2017/083_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/084.jpg" title="Foto">
+                    <img src="img/fotky/2017/084_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/085.jpg" title="Foto">
+                    <img src="img/fotky/2017/085_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/086.jpg" title="Foto">
+                    <img src="img/fotky/2017/086_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/087.jpg" title="Foto">
+                    <img src="img/fotky/2017/087_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/088.jpg" title="Foto">
+                    <img src="img/fotky/2017/088_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/089.jpg" title="Foto">
+                    <img src="img/fotky/2017/089_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/090.jpg" title="Foto">
+                    <img src="img/fotky/2017/090_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/091.jpg" title="Foto">
+                    <img src="img/fotky/2017/091_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/092.jpg" title="Foto">
+                    <img src="img/fotky/2017/092_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/093.jpg" title="Foto">
+                    <img src="img/fotky/2017/093_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/094.jpg" title="Foto">
+                    <img src="img/fotky/2017/094_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/095.jpg" title="Foto">
+                    <img src="img/fotky/2017/095_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/096.jpg" title="Foto">
+                    <img src="img/fotky/2017/096_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/097.jpg" title="Foto">
+                    <img src="img/fotky/2017/097_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/098.jpg" title="Foto">
+                    <img src="img/fotky/2017/098_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/099.jpg" title="Foto">
+                    <img src="img/fotky/2017/099_tn.jpg" alt="Foto">
+                </a>
+
+                <a href="img/fotky/2017/100.jpg" title="Foto">
+                    <img src="img/fotky/2017/100_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/101.jpg" title="Foto">
+                    <img src="img/fotky/2017/101_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/102.jpg" title="Foto">
+                    <img src="img/fotky/2017/102_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/103.jpg" title="Foto">
+                    <img src="img/fotky/2017/103_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/104.jpg" title="Foto">
+                    <img src="img/fotky/2017/104_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/105.jpg" title="Foto">
+                    <img src="img/fotky/2017/105_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/106.jpg" title="Foto">
+                    <img src="img/fotky/2017/106_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/107.jpg" title="Foto">
+                    <img src="img/fotky/2017/107_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/108.jpg" title="Foto">
+                    <img src="img/fotky/2017/108_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/109.jpg" title="Foto">
+                    <img src="img/fotky/2017/109_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/110.jpg" title="Foto">
+                    <img src="img/fotky/2017/110_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/111.jpg" title="Foto">
+                    <img src="img/fotky/2017/111_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/112.jpg" title="Foto">
+                    <img src="img/fotky/2017/112_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/113.jpg" title="Foto">
+                    <img src="img/fotky/2017/113_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/114.jpg" title="Foto">
+                    <img src="img/fotky/2017/114_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/115.jpg" title="Foto">
+                    <img src="img/fotky/2017/115_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/116.jpg" title="Foto">
+                    <img src="img/fotky/2017/116_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/117.jpg" title="Foto">
+                    <img src="img/fotky/2017/117_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/118.jpg" title="Foto">
+                    <img src="img/fotky/2017/118_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/119.jpg" title="Foto">
+                    <img src="img/fotky/2017/119_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/120.jpg" title="Foto">
+                    <img src="img/fotky/2017/120_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/121.jpg" title="Foto">
+                    <img src="img/fotky/2017/121_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/122.jpg" title="Foto">
+                    <img src="img/fotky/2017/122_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017213.jpg" title="Foto">
+                    <img src="img/fotky/2017/123_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/124.jpg" title="Foto">
+                    <img src="img/fotky/2017/124_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/125.jpg" title="Foto">
+                    <img src="img/fotky/2017/125_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/126.jpg" title="Foto">
+                    <img src="img/fotky/2017/126_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/127.jpg" title="Foto">
+                    <img src="img/fotky/2017/127_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/128.jpg" title="Foto">
+                    <img src="img/fotky/2017/128_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/129.jpg" title="Foto">
+                    <img src="img/fotky/2017/129_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/130.jpg" title="Foto">
+                    <img src="img/fotky/2017/130_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/131.jpg" title="Foto">
+                    <img src="img/fotky/2017/131_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/132.jpg" title="Foto">
+                    <img src="img/fotky/2017/132_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/133.jpg" title="Foto">
+                    <img src="img/fotky/2017/133_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/134.jpg" title="Foto">
+                    <img src="img/fotky/2017/134_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/135.jpg" title="Foto">
+                    <img src="img/fotky/2017/135_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/136.jpg" title="Foto">
+                    <img src="img/fotky/2017/136_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/137.jpg" title="Foto">
+                    <img src="img/fotky/2017/137_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/138.jpg" title="Foto">
+                    <img src="img/fotky/2017/138_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/139.jpg" title="Foto">
+                    <img src="img/fotky/2017/139_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/140.jpg" title="Foto">
+                    <img src="img/fotky/2017/140_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/141.jpg" title="Foto">
+                    <img src="img/fotky/2017/141_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/142.jpg" title="Foto">
+                    <img src="img/fotky/2017/142_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/143.jpg" title="Foto">
+                    <img src="img/fotky/2017/143_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/144.jpg" title="Foto">
+                    <img src="img/fotky/2017/144_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/145.jpg" title="Foto">
+                    <img src="img/fotky/2017/145_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/146.jpg" title="Foto">
+                    <img src="img/fotky/2017/146_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/147.jpg" title="Foto">
+                    <img src="img/fotky/2017/147_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/148.jpg" title="Foto">
+                    <img src="img/fotky/2017/148_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/149.jpg" title="Foto">
+                    <img src="img/fotky/2017/149_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/150.jpg" title="Foto">
+                    <img src="img/fotky/2017/150_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/151.jpg" title="Foto">
+                    <img src="img/fotky/2017/151_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/152.jpg" title="Foto">
+                    <img src="img/fotky/2017/152_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/153.jpg" title="Foto">
+                    <img src="img/fotky/2017/153_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/154.jpg" title="Foto">
+                    <img src="img/fotky/2017/154_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/155.jpg" title="Foto">
+                    <img src="img/fotky/2017/155_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/156.jpg" title="Foto">
+                    <img src="img/fotky/2017/156_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/157.jpg" title="Foto">
+                    <img src="img/fotky/2017/157_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/158.jpg" title="Foto">
+                    <img src="img/fotky/2017/158_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/159.jpg" title="Foto">
+                    <img src="img/fotky/2017/159_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/160.jpg" title="Foto">
+                    <img src="img/fotky/2017/160_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/161.jpg" title="Foto">
+                    <img src="img/fotky/2017/161_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/162.jpg" title="Foto">
+                    <img src="img/fotky/2017/162_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/163.jpg" title="Foto">
+                    <img src="img/fotky/2017/163_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/164.jpg" title="Foto">
+                    <img src="img/fotky/2017/164_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/165.jpg" title="Foto">
+                    <img src="img/fotky/2017/165_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/166.jpg" title="Foto">
+                    <img src="img/fotky/2017/166_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/167.jpg" title="Foto">
+                    <img src="img/fotky/2017/167_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/168.jpg" title="Foto">
+                    <img src="img/fotky/2017/168_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/169.jpg" title="Foto">
+                    <img src="img/fotky/2017/169_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/170.jpg" title="Foto">
+                    <img src="img/fotky/2017/170_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/171.jpg" title="Foto">
+                    <img src="img/fotky/2017/171_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/172.jpg" title="Foto">
+                    <img src="img/fotky/2017/172_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/173.jpg" title="Foto">
+                    <img src="img/fotky/2017/173_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/174.jpg" title="Foto">
+                    <img src="img/fotky/2017/174_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/175.jpg" title="Foto">
+                    <img src="img/fotky/2017/175_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/176.jpg" title="Foto">
+                    <img src="img/fotky/2017/176_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/177.jpg" title="Foto">
+                    <img src="img/fotky/2017/177_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/178.jpg" title="Foto">
+                    <img src="img/fotky/2017/178_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/179.jpg" title="Foto">
+                    <img src="img/fotky/2017/179_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/180.jpg" title="Foto">
+                    <img src="img/fotky/2017/180_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/181.jpg" title="Foto">
+                    <img src="img/fotky/2017/181_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/182.jpg" title="Foto">
+                    <img src="img/fotky/2017/182_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/183.jpg" title="Foto">
+                    <img src="img/fotky/2017/183_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/184.jpg" title="Foto">
+                    <img src="img/fotky/2017/184_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/185.jpg" title="Foto">
+                    <img src="img/fotky/2017/185_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/186.jpg" title="Foto">
+                    <img src="img/fotky/2017/186_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/187.jpg" title="Foto">
+                    <img src="img/fotky/2017/187_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/188.jpg" title="Foto">
+                    <img src="img/fotky/2017/188_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/189.jpg" title="Foto">
+                    <img src="img/fotky/2017/189_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/190.jpg" title="Foto">
+                    <img src="img/fotky/2017/190_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/191.jpg" title="Foto">
+                    <img src="img/fotky/2017/191_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/192.jpg" title="Foto">
+                    <img src="img/fotky/2017/192_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/193.jpg" title="Foto">
+                    <img src="img/fotky/2017/193_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/194.jpg" title="Foto">
+                    <img src="img/fotky/2017/194_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/195.jpg" title="Foto">
+                    <img src="img/fotky/2017/195_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/196.jpg" title="Foto">
+                    <img src="img/fotky/2017/196_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/197.jpg" title="Foto">
+                    <img src="img/fotky/2017/197_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/198.jpg" title="Foto">
+                    <img src="img/fotky/2017/198_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/199.jpg" title="Foto">
+                    <img src="img/fotky/2017/199_tn.jpg" alt="Foto">
+                </a>
+
+
+                <a href="img/fotky/2017/200.jpg" title="Foto">
+                    <img src="img/fotky/2017/200_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/201.jpg" title="Foto">
+                    <img src="img/fotky/2017/201_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/202.jpg" title="Foto">
+                    <img src="img/fotky/2017/202_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/203.jpg" title="Foto">
+                    <img src="img/fotky/2017/203_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/204.jpg" title="Foto">
+                    <img src="img/fotky/2017/204_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/205.jpg" title="Foto">
+                    <img src="img/fotky/2017/205_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/206.jpg" title="Foto">
+                    <img src="img/fotky/2017/206_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/207.jpg" title="Foto">
+                    <img src="img/fotky/2017/207_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/208.jpg" title="Foto">
+                    <img src="img/fotky/2017/208_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/209.jpg" title="Foto">
+                    <img src="img/fotky/2017/209_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/210.jpg" title="Foto">
+                    <img src="img/fotky/2017/210_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/211.jpg" title="Foto">
+                    <img src="img/fotky/2017/211_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/212.jpg" title="Foto">
+                    <img src="img/fotky/2017/212_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/213.jpg" title="Foto">
+                    <img src="img/fotky/2017/213_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/214.jpg" title="Foto">
+                    <img src="img/fotky/2017/214_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/215.jpg" title="Foto">
+                    <img src="img/fotky/2017/215_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/216.jpg" title="Foto">
+                    <img src="img/fotky/2017/216_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/217.jpg" title="Foto">
+                    <img src="img/fotky/2017/217_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/218.jpg" title="Foto">
+                    <img src="img/fotky/2017/218_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/219.jpg" title="Foto">
+                    <img src="img/fotky/2017/219_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2017/220.jpg" title="Foto">
+                    <img src="img/fotky/2017/220_tn.jpg" alt="Foto">
+                </a>
+
+                <a href="img/fotky/2017223.jpg" title="Foto">
+                    <img src="img/fotky/2017/223_tn.jpg" alt="Foto">
+                </a>
+
+            </div>
+
+            <p>
+                <b>Informácie o autorovi fotografií: </b>
+            </p>
+            <span class="glyphicon glyphicon-camera"></span>
+            <a href="https://www.facebook.com/syndromphoto/">SyndromPhoto</a>
+            <br>
+        </div>
+        
+        <div class="well">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#fotky2016">Ročník 2016</button> Pre zobrazenie kliknite na tlačidlo
+
+            <br>
+            <br>
+
+            <div id="fotky2016" class="collapse">
+
+
+                <a href="img/fotky/2016/1.jpg" title="Foto">
+                    <img src="img/fotky/2016/1_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/2.jpg" title="Foto">
+                    <img src="img/fotky/2016/2_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/3.jpg" title="Foto">
+                    <img src="img/fotky/2016/3_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/4.jpg" title="Foto">
+                    <img src="img/fotky/2016/4_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/5.jpg" title="Foto">
+                    <img src="img/fotky/2016/5_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/6.jpg" title="Foto">
+                    <img src="img/fotky/2016/6_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/7.jpg" title="Foto">
+                    <img src="img/fotky/2016/7_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/8.jpg" title="Foto">
+                    <img src="img/fotky/2016/8_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/9.jpg" title="Foto">
+                    <img src="img/fotky/2016/9_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/10.jpg" title="Foto">
+                    <img src="img/fotky/2016/10_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/11.jpg" title="Foto">
+                    <img src="img/fotky/2016/11_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/12.jpg" title="Foto">
+                    <img src="img/fotky/2016/12_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/13.jpg" title="Foto">
+                    <img src="img/fotky/2016/13_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/14.jpg" title="Foto">
+                    <img src="img/fotky/2016/14_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/15.jpg" title="Foto">
+                    <img src="img/fotky/2016/15_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/16.jpg" title="Foto">
+                    <img src="img/fotky/2016/16_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/17.jpg" title="Foto">
+                    <img src="img/fotky/2016/17_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/18.jpg" title="Foto">
+                    <img src="img/fotky/2016/18_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/19.jpg" title="Foto">
+                    <img src="img/fotky/2016/19_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/20.jpg" title="Foto">
+                    <img src="img/fotky/2016/20_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/21.jpg" title="Foto">
+                    <img src="img/fotky/2016/21_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/22.jpg" title="Foto">
+                    <img src="img/fotky/2016/22_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/201623.jpg" title="Foto">
+                    <img src="img/fotky/2016/23_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/24.jpg" title="Foto">
+                    <img src="img/fotky/2016/24_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/25.jpg" title="Foto">
+                    <img src="img/fotky/2016/25_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/26.jpg" title="Foto">
+                    <img src="img/fotky/2016/26_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/27.jpg" title="Foto">
+                    <img src="img/fotky/2016/27_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/28.jpg" title="Foto">
+                    <img src="img/fotky/2016/28_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/29.jpg" title="Foto">
+                    <img src="img/fotky/2016/29_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/30.jpg" title="Foto">
+                    <img src="img/fotky/2016/30_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/31.jpg" title="Foto">
+                    <img src="img/fotky/2016/31_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/32.jpg" title="Foto">
+                    <img src="img/fotky/2016/32_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/33.jpg" title="Foto">
+                    <img src="img/fotky/2016/33_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/34.jpg" title="Foto">
+                    <img src="img/fotky/2016/34_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/35.jpg" title="Foto">
+                    <img src="img/fotky/2016/35_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/36.jpg" title="Foto">
+                    <img src="img/fotky/2016/36_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/37.jpg" title="Foto">
+                    <img src="img/fotky/2016/37_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/38.jpg" title="Foto">
+                    <img src="img/fotky/2016/38_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/39.jpg" title="Foto">
+                    <img src="img/fotky/2016/39_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/40.jpg" title="Foto">
+                    <img src="img/fotky/2016/40_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/41.jpg" title="Foto">
+                    <img src="img/fotky/2016/41_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/42.jpg" title="Foto">
+                    <img src="img/fotky/2016/42_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/43.jpg" title="Foto">
+                    <img src="img/fotky/2016/43_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/44.jpg" title="Foto">
+                    <img src="img/fotky/2016/44_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/45.jpg" title="Foto">
+                    <img src="img/fotky/2016/45_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/46.jpg" title="Foto">
+                    <img src="img/fotky/2016/46_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/47.jpg" title="Foto">
+                    <img src="img/fotky/2016/47_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/48.jpg" title="Foto">
+                    <img src="img/fotky/2016/48_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/49.jpg" title="Foto">
+                    <img src="img/fotky/2016/49_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/50.jpg" title="Foto">
+                    <img src="img/fotky/2016/50_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/51.jpg" title="Foto">
+                    <img src="img/fotky/2016/51_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/52.jpg" title="Foto">
+                    <img src="img/fotky/2016/52_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/53.jpg" title="Foto">
+                    <img src="img/fotky/2016/53_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/54.jpg" title="Foto">
+                    <img src="img/fotky/2016/54_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/55.jpg" title="Foto">
+                    <img src="img/fotky/2016/55_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/56.jpg" title="Foto">
+                    <img src="img/fotky/2016/56_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/57.jpg" title="Foto">
+                    <img src="img/fotky/2016/57_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/58.jpg" title="Foto">
+                    <img src="img/fotky/2016/58_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/59.jpg" title="Foto">
+                    <img src="img/fotky/2016/59_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/60.jpg" title="Foto">
+                    <img src="img/fotky/2016/60_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/61.jpg" title="Foto">
+                    <img src="img/fotky/2016/61_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/62.jpg" title="Foto">
+                    <img src="img/fotky/2016/62_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/63.jpg" title="Foto">
+                    <img src="img/fotky/2016/63_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/64.jpg" title="Foto">
+                    <img src="img/fotky/2016/64_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/65.jpg" title="Foto">
+                    <img src="img/fotky/2016/65_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/66.jpg" title="Foto">
+                    <img src="img/fotky/2016/66_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/67.jpg" title="Foto">
+                    <img src="img/fotky/2016/67_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/68.jpg" title="Foto">
+                    <img src="img/fotky/2016/68_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/69.jpg" title="Foto">
+                    <img src="img/fotky/2016/69_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/70.jpg" title="Foto">
+                    <img src="img/fotky/2016/70_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/71.jpg" title="Foto">
+                    <img src="img/fotky/2016/71_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/72.jpg" title="Foto">
+                    <img src="img/fotky/2016/72_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/73.jpg" title="Foto">
+                    <img src="img/fotky/2016/73_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/74.jpg" title="Foto">
+                    <img src="img/fotky/2016/74_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/75.jpg" title="Foto">
+                    <img src="img/fotky/2016/75_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/76.jpg" title="Foto">
+                    <img src="img/fotky/2016/76_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/77.jpg" title="Foto">
+                    <img src="img/fotky/2016/77_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/78.jpg" title="Foto">
+                    <img src="img/fotky/2016/78_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/79.jpg" title="Foto">
+                    <img src="img/fotky/2016/79_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/80.jpg" title="Foto">
+                    <img src="img/fotky/2016/80_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/81.jpg" title="Foto">
+                    <img src="img/fotky/2016/81_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/82.jpg" title="Foto">
+                    <img src="img/fotky/2016/82_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/83.jpg" title="Foto">
+                    <img src="img/fotky/2016/83_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/84.jpg" title="Foto">
+                    <img src="img/fotky/2016/84_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/85.jpg" title="Foto">
+                    <img src="img/fotky/2016/85_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/86.jpg" title="Foto">
+                    <img src="img/fotky/2016/86_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/87.jpg" title="Foto">
+                    <img src="img/fotky/2016/87_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/88.jpg" title="Foto">
+                    <img src="img/fotky/2016/88_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/89.jpg" title="Foto">
+                    <img src="img/fotky/2016/89_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/90.jpg" title="Foto">
+                    <img src="img/fotky/2016/90_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/91.jpg" title="Foto">
+                    <img src="img/fotky/2016/91_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/92.jpg" title="Foto">
+                    <img src="img/fotky/2016/92_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/93.jpg" title="Foto">
+                    <img src="img/fotky/2016/93_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/94.jpg" title="Foto">
+                    <img src="img/fotky/2016/94_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/95.jpg" title="Foto">
+                    <img src="img/fotky/2016/95_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/96.jpg" title="Foto">
+                    <img src="img/fotky/2016/96_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/97.jpg" title="Foto">
+                    <img src="img/fotky/2016/97_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/98.jpg" title="Foto">
+                    <img src="img/fotky/2016/98_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/99.jpg" title="Foto">
+                    <img src="img/fotky/2016/99_tn.jpg" alt="Foto">
+                </a>
+
+                <a href="img/fotky/2016/100.jpg" title="Foto">
+                    <img src="img/fotky/2016/100_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/101.jpg" title="Foto">
+                    <img src="img/fotky/2016/101_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/102.jpg" title="Foto">
+                    <img src="img/fotky/2016/102_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/103.jpg" title="Foto">
+                    <img src="img/fotky/2016/103_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/104.jpg" title="Foto">
+                    <img src="img/fotky/2016/104_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/105.jpg" title="Foto">
+                    <img src="img/fotky/2016/105_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/106.jpg" title="Foto">
+                    <img src="img/fotky/2016/106_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/107.jpg" title="Foto">
+                    <img src="img/fotky/2016/107_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/108.jpg" title="Foto">
+                    <img src="img/fotky/2016/108_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/109.jpg" title="Foto">
+                    <img src="img/fotky/2016/109_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/110.jpg" title="Foto">
+                    <img src="img/fotky/2016/110_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/111.jpg" title="Foto">
+                    <img src="img/fotky/2016/111_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/112.jpg" title="Foto">
+                    <img src="img/fotky/2016/112_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/113.jpg" title="Foto">
+                    <img src="img/fotky/2016/113_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/114.jpg" title="Foto">
+                    <img src="img/fotky/2016/114_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/115.jpg" title="Foto">
+                    <img src="img/fotky/2016/115_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/116.jpg" title="Foto">
+                    <img src="img/fotky/2016/116_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/117.jpg" title="Foto">
+                    <img src="img/fotky/2016/117_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/118.jpg" title="Foto">
+                    <img src="img/fotky/2016/118_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/119.jpg" title="Foto">
+                    <img src="img/fotky/2016/119_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/120.jpg" title="Foto">
+                    <img src="img/fotky/2016/120_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/121.jpg" title="Foto">
+                    <img src="img/fotky/2016/121_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/122.jpg" title="Foto">
+                    <img src="img/fotky/2016/122_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016213.jpg" title="Foto">
+                    <img src="img/fotky/2016/123_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/124.jpg" title="Foto">
+                    <img src="img/fotky/2016/124_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/125.jpg" title="Foto">
+                    <img src="img/fotky/2016/125_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/126.jpg" title="Foto">
+                    <img src="img/fotky/2016/126_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/127.jpg" title="Foto">
+                    <img src="img/fotky/2016/127_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/128.jpg" title="Foto">
+                    <img src="img/fotky/2016/128_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/129.jpg" title="Foto">
+                    <img src="img/fotky/2016/129_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/130.jpg" title="Foto">
+                    <img src="img/fotky/2016/130_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/131.jpg" title="Foto">
+                    <img src="img/fotky/2016/131_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/132.jpg" title="Foto">
+                    <img src="img/fotky/2016/132_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/133.jpg" title="Foto">
+                    <img src="img/fotky/2016/133_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/134.jpg" title="Foto">
+                    <img src="img/fotky/2016/134_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/135.jpg" title="Foto">
+                    <img src="img/fotky/2016/135_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/136.jpg" title="Foto">
+                    <img src="img/fotky/2016/136_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/137.jpg" title="Foto">
+                    <img src="img/fotky/2016/137_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/138.jpg" title="Foto">
+                    <img src="img/fotky/2016/138_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/139.jpg" title="Foto">
+                    <img src="img/fotky/2016/139_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/140.jpg" title="Foto">
+                    <img src="img/fotky/2016/140_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/141.jpg" title="Foto">
+                    <img src="img/fotky/2016/141_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/142.jpg" title="Foto">
+                    <img src="img/fotky/2016/142_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/143.jpg" title="Foto">
+                    <img src="img/fotky/2016/143_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/144.jpg" title="Foto">
+                    <img src="img/fotky/2016/144_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/145.jpg" title="Foto">
+                    <img src="img/fotky/2016/145_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/146.jpg" title="Foto">
+                    <img src="img/fotky/2016/146_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/147.jpg" title="Foto">
+                    <img src="img/fotky/2016/147_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/148.jpg" title="Foto">
+                    <img src="img/fotky/2016/148_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/149.jpg" title="Foto">
+                    <img src="img/fotky/2016/149_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/150.jpg" title="Foto">
+                    <img src="img/fotky/2016/150_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/151.jpg" title="Foto">
+                    <img src="img/fotky/2016/151_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/152.jpg" title="Foto">
+                    <img src="img/fotky/2016/152_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/153.jpg" title="Foto">
+                    <img src="img/fotky/2016/153_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/154.jpg" title="Foto">
+                    <img src="img/fotky/2016/154_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/155.jpg" title="Foto">
+                    <img src="img/fotky/2016/155_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/156.jpg" title="Foto">
+                    <img src="img/fotky/2016/156_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/157.jpg" title="Foto">
+                    <img src="img/fotky/2016/157_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/158.jpg" title="Foto">
+                    <img src="img/fotky/2016/158_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/159.jpg" title="Foto">
+                    <img src="img/fotky/2016/159_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/160.jpg" title="Foto">
+                    <img src="img/fotky/2016/160_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/161.jpg" title="Foto">
+                    <img src="img/fotky/2016/161_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/162.jpg" title="Foto">
+                    <img src="img/fotky/2016/162_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/163.jpg" title="Foto">
+                    <img src="img/fotky/2016/163_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/164.jpg" title="Foto">
+                    <img src="img/fotky/2016/164_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/165.jpg" title="Foto">
+                    <img src="img/fotky/2016/165_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/166.jpg" title="Foto">
+                    <img src="img/fotky/2016/166_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/167.jpg" title="Foto">
+                    <img src="img/fotky/2016/167_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/168.jpg" title="Foto">
+                    <img src="img/fotky/2016/168_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/169.jpg" title="Foto">
+                    <img src="img/fotky/2016/169_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/170.jpg" title="Foto">
+                    <img src="img/fotky/2016/170_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/171.jpg" title="Foto">
+                    <img src="img/fotky/2016/171_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/172.jpg" title="Foto">
+                    <img src="img/fotky/2016/172_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/173.jpg" title="Foto">
+                    <img src="img/fotky/2016/173_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/174.jpg" title="Foto">
+                    <img src="img/fotky/2016/174_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/175.jpg" title="Foto">
+                    <img src="img/fotky/2016/175_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/176.jpg" title="Foto">
+                    <img src="img/fotky/2016/176_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/177.jpg" title="Foto">
+                    <img src="img/fotky/2016/177_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/178.jpg" title="Foto">
+                    <img src="img/fotky/2016/178_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/179.jpg" title="Foto">
+                    <img src="img/fotky/2016/179_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/180.jpg" title="Foto">
+                    <img src="img/fotky/2016/180_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/181.jpg" title="Foto">
+                    <img src="img/fotky/2016/181_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/182.jpg" title="Foto">
+                    <img src="img/fotky/2016/182_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/183.jpg" title="Foto">
+                    <img src="img/fotky/2016/183_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/184.jpg" title="Foto">
+                    <img src="img/fotky/2016/184_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/185.jpg" title="Foto">
+                    <img src="img/fotky/2016/185_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/186.jpg" title="Foto">
+                    <img src="img/fotky/2016/186_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/187.jpg" title="Foto">
+                    <img src="img/fotky/2016/187_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/188.jpg" title="Foto">
+                    <img src="img/fotky/2016/188_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/189.jpg" title="Foto">
+                    <img src="img/fotky/2016/189_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/190.jpg" title="Foto">
+                    <img src="img/fotky/2016/190_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/191.jpg" title="Foto">
+                    <img src="img/fotky/2016/191_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/192.jpg" title="Foto">
+                    <img src="img/fotky/2016/192_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/193.jpg" title="Foto">
+                    <img src="img/fotky/2016/193_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/194.jpg" title="Foto">
+                    <img src="img/fotky/2016/194_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/195.jpg" title="Foto">
+                    <img src="img/fotky/2016/195_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/196.jpg" title="Foto">
+                    <img src="img/fotky/2016/196_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/197.jpg" title="Foto">
+                    <img src="img/fotky/2016/197_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/198.jpg" title="Foto">
+                    <img src="img/fotky/2016/198_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/199.jpg" title="Foto">
+                    <img src="img/fotky/2016/199_tn.jpg" alt="Foto">
+                </a>
+
+
+                <a href="img/fotky/2016/200.jpg" title="Foto">
+                    <img src="img/fotky/2016/200_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/201.jpg" title="Foto">
+                    <img src="img/fotky/2016/201_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/202.jpg" title="Foto">
+                    <img src="img/fotky/2016/202_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/203.jpg" title="Foto">
+                    <img src="img/fotky/2016/203_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/204.jpg" title="Foto">
+                    <img src="img/fotky/2016/204_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/205.jpg" title="Foto">
+                    <img src="img/fotky/2016/205_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/206.jpg" title="Foto">
+                    <img src="img/fotky/2016/206_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/207.jpg" title="Foto">
+                    <img src="img/fotky/2016/207_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/208.jpg" title="Foto">
+                    <img src="img/fotky/2016/208_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/209.jpg" title="Foto">
+                    <img src="img/fotky/2016/209_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/210.jpg" title="Foto">
+                    <img src="img/fotky/2016/210_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/211.jpg" title="Foto">
+                    <img src="img/fotky/2016/211_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/212.jpg" title="Foto">
+                    <img src="img/fotky/2016/212_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/213.jpg" title="Foto">
+                    <img src="img/fotky/2016/213_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/214.jpg" title="Foto">
+                    <img src="img/fotky/2016/214_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/215.jpg" title="Foto">
+                    <img src="img/fotky/2016/215_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/216.jpg" title="Foto">
+                    <img src="img/fotky/2016/216_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/217.jpg" title="Foto">
+                    <img src="img/fotky/2016/217_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/218.jpg" title="Foto">
+                    <img src="img/fotky/2016/218_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/219.jpg" title="Foto">
+                    <img src="img/fotky/2016/219_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/220.jpg" title="Foto">
+                    <img src="img/fotky/2016/220_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/221.jpg" title="Foto">
+                    <img src="img/fotky/2016/221_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/222.jpg" title="Foto">
+                    <img src="img/fotky/2016/222_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016223.jpg" title="Foto">
+                    <img src="img/fotky/2016/223_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/224.jpg" title="Foto">
+                    <img src="img/fotky/2016/224_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/225.jpg" title="Foto">
+                    <img src="img/fotky/2016/225_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/226.jpg" title="Foto">
+                    <img src="img/fotky/2016/226_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/227.jpg" title="Foto">
+                    <img src="img/fotky/2016/227_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/228.jpg" title="Foto">
+                    <img src="img/fotky/2016/228_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/229.jpg" title="Foto">
+                    <img src="img/fotky/2016/229_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/230.jpg" title="Foto">
+                    <img src="img/fotky/2016/230_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/231.jpg" title="Foto">
+                    <img src="img/fotky/2016/231_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/232.jpg" title="Foto">
+                    <img src="img/fotky/2016/232_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/233.jpg" title="Foto">
+                    <img src="img/fotky/2016/233_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/234.jpg" title="Foto">
+                    <img src="img/fotky/2016/234_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/235.jpg" title="Foto">
+                    <img src="img/fotky/2016/235_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/236.jpg" title="Foto">
+                    <img src="img/fotky/2016/236_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/237.jpg" title="Foto">
+                    <img src="img/fotky/2016/237_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/238.jpg" title="Foto">
+                    <img src="img/fotky/2016/238_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/239.jpg" title="Foto">
+                    <img src="img/fotky/2016/239_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/240.jpg" title="Foto">
+                    <img src="img/fotky/2016/240_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/241.jpg" title="Foto">
+                    <img src="img/fotky/2016/241_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/242.jpg" title="Foto">
+                    <img src="img/fotky/2016/242_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/243.jpg" title="Foto">
+                    <img src="img/fotky/2016/243_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/244.jpg" title="Foto">
+                    <img src="img/fotky/2016/244_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/245.jpg" title="Foto">
+                    <img src="img/fotky/2016/245_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/246.jpg" title="Foto">
+                    <img src="img/fotky/2016/246_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/247.jpg" title="Foto">
+                    <img src="img/fotky/2016/247_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/248.jpg" title="Foto">
+                    <img src="img/fotky/2016/248_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/249.jpg" title="Foto">
+                    <img src="img/fotky/2016/249_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/250.jpg" title="Foto">
+                    <img src="img/fotky/2016/250_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/251.jpg" title="Foto">
+                    <img src="img/fotky/2016/251_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/252.jpg" title="Foto">
+                    <img src="img/fotky/2016/252_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/253.jpg" title="Foto">
+                    <img src="img/fotky/2016/253_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/254.jpg" title="Foto">
+                    <img src="img/fotky/2016/254_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/255.jpg" title="Foto">
+                    <img src="img/fotky/2016/255_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/256.jpg" title="Foto">
+                    <img src="img/fotky/2016/256_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/257.jpg" title="Foto">
+                    <img src="img/fotky/2016/257_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/258.jpg" title="Foto">
+                    <img src="img/fotky/2016/258_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/259.jpg" title="Foto">
+                    <img src="img/fotky/2016/259_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/260.jpg" title="Foto">
+                    <img src="img/fotky/2016/260_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/261.jpg" title="Foto">
+                    <img src="img/fotky/2016/261_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/262.jpg" title="Foto">
+                    <img src="img/fotky/2016/262_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/263.jpg" title="Foto">
+                    <img src="img/fotky/2016/263_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/264.jpg" title="Foto">
+                    <img src="img/fotky/2016/264_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/265.jpg" title="Foto">
+                    <img src="img/fotky/2016/265_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/266.jpg" title="Foto">
+                    <img src="img/fotky/2016/266_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/267.jpg" title="Foto">
+                    <img src="img/fotky/2016/267_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/268.jpg" title="Foto">
+                    <img src="img/fotky/2016/268_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/269.jpg" title="Foto">
+                    <img src="img/fotky/2016/269_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/270.jpg" title="Foto">
+                    <img src="img/fotky/2016/270_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/271.jpg" title="Foto">
+                    <img src="img/fotky/2016/271_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/272.jpg" title="Foto">
+                    <img src="img/fotky/2016/272_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/273.jpg" title="Foto">
+                    <img src="img/fotky/2016/273_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/274.jpg" title="Foto">
+                    <img src="img/fotky/2016/274_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/275.jpg" title="Foto">
+                    <img src="img/fotky/2016/275_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/276.jpg" title="Foto">
+                    <img src="img/fotky/2016/276_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/277.jpg" title="Foto">
+                    <img src="img/fotky/2016/277_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/278.jpg" title="Foto">
+                    <img src="img/fotky/2016/278_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/279.jpg" title="Foto">
+                    <img src="img/fotky/2016/279_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/280.jpg" title="Foto">
+                    <img src="img/fotky/2016/280_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/281.jpg" title="Foto">
+                    <img src="img/fotky/2016/281_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/282.jpg" title="Foto">
+                    <img src="img/fotky/2016/282_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/283.jpg" title="Foto">
+                    <img src="img/fotky/2016/283_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/284.jpg" title="Foto">
+                    <img src="img/fotky/2016/284_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/285.jpg" title="Foto">
+                    <img src="img/fotky/2016/285_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/286.jpg" title="Foto">
+                    <img src="img/fotky/2016/286_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/287.jpg" title="Foto">
+                    <img src="img/fotky/2016/287_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/288.jpg" title="Foto">
+                    <img src="img/fotky/2016/288_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/289.jpg" title="Foto">
+                    <img src="img/fotky/2016/289_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/290.jpg" title="Foto">
+                    <img src="img/fotky/2016/290_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/291.jpg" title="Foto">
+                    <img src="img/fotky/2016/291_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/292.jpg" title="Foto">
+                    <img src="img/fotky/2016/292_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/293.jpg" title="Foto">
+                    <img src="img/fotky/2016/293_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/294.jpg" title="Foto">
+                    <img src="img/fotky/2016/294_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/295.jpg" title="Foto">
+                    <img src="img/fotky/2016/295_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/296.jpg" title="Foto">
+                    <img src="img/fotky/2016/296_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/297.jpg" title="Foto">
+                    <img src="img/fotky/2016/297_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/298.jpg" title="Foto">
+                    <img src="img/fotky/2016/298_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/299.jpg" title="Foto">
+                    <img src="img/fotky/2016/299_tn.jpg" alt="Foto">
+                </a>
+
+
+
+                <a href="img/fotky/2016/300.jpg" title="Foto">
+                    <img src="img/fotky/2016/300_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/301.jpg" title="Foto">
+                    <img src="img/fotky/2016/301_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/302.jpg" title="Foto">
+                    <img src="img/fotky/2016/302_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/303.jpg" title="Foto">
+                    <img src="img/fotky/2016/303_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/304.jpg" title="Foto">
+                    <img src="img/fotky/2016/304_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/305.jpg" title="Foto">
+                    <img src="img/fotky/2016/305_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/306.jpg" title="Foto">
+                    <img src="img/fotky/2016/306_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/307.jpg" title="Foto">
+                    <img src="img/fotky/2016/307_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/308.jpg" title="Foto">
+                    <img src="img/fotky/2016/308_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/309.jpg" title="Foto">
+                    <img src="img/fotky/2016/309_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/310.jpg" title="Foto">
+                    <img src="img/fotky/2016/310_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/311.jpg" title="Foto">
+                    <img src="img/fotky/2016/311_tn.jpg" alt="Foto">
+                </a>
+                <!--<a href="img/fotky/2016/312.jpg" title="Foto">
+                    <img src="img/fotky/2016/312_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/313.jpg" title="Foto">
+                    <img src="img/fotky/2016/313_tn.jpg" alt="Foto">-->
+                </a>
+                <a href="img/fotky/2016/314.jpg" title="Foto">
+                    <img src="img/fotky/2016/314_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/315.jpg" title="Foto">
+                    <img src="img/fotky/2016/315_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/316.jpg" title="Foto">
+                    <img src="img/fotky/2016/316_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/317.jpg" title="Foto">
+                    <img src="img/fotky/2016/317_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/318.jpg" title="Foto">
+                    <img src="img/fotky/2016/318_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/319.jpg" title="Foto">
+                    <img src="img/fotky/2016/319_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/320.jpg" title="Foto">
+                    <img src="img/fotky/2016/320_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/321.jpg" title="Foto">
+                    <img src="img/fotky/2016/321_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/322.jpg" title="Foto">
+                    <img src="img/fotky/2016/322_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016233.jpg" title="Foto">
+                    <img src="img/fotky/2016/323_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/324.jpg" title="Foto">
+                    <img src="img/fotky/2016/324_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/325.jpg" title="Foto">
+                    <img src="img/fotky/2016/325_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/326.jpg" title="Foto">
+                    <img src="img/fotky/2016/326_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/327.jpg" title="Foto">
+                    <img src="img/fotky/2016/327_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/328.jpg" title="Foto">
+                    <img src="img/fotky/2016/328_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/329.jpg" title="Foto">
+                    <img src="img/fotky/2016/329_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/330.jpg" title="Foto">
+                    <img src="img/fotky/2016/330_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/331.jpg" title="Foto">
+                    <img src="img/fotky/2016/331_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/332.jpg" title="Foto">
+                    <img src="img/fotky/2016/332_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/333.jpg" title="Foto">
+                    <img src="img/fotky/2016/333_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/334.jpg" title="Foto">
+                    <img src="img/fotky/2016/334_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/335.jpg" title="Foto">
+                    <img src="img/fotky/2016/335_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2016/336.jpg" title="Foto">
+                    <img src="img/fotky/2016/336_tn.jpg" alt="Foto">
+                </a>
+            </div>
+            <p>
+                <b>Informácie o autorovi fotografií: </b>
+            </p>
+            <span class="glyphicon glyphicon-camera"></span>
+            <a href="https://www.facebook.com/digihelion/">DIGIHELION - Creative Photography</a>
+            <br>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="well">
+
+
+
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#fotky2015">Ročník 2015</button> Pre zobrazenie kliknite na tlačidlo
+
+            <br>
+            <br>
+            <div id="fotky2015" class="collapse">
+
+                <a href="img/fotky/2015/1.jpg" title="Foto">
+                    <img src="img/fotky/2015/1_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/2.jpg" title="Foto">
+                    <img src="img/fotky/2015/2_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/3.jpg" title="Foto">
+                    <img src="img/fotky/2015/3_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/4.jpg" title="Foto">
+                    <img src="img/fotky/2015/4_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/5.jpg" title="Foto">
+                    <img src="img/fotky/2015/5_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/6.jpg" title="Foto">
+                    <img src="img/fotky/2015/6_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/7.jpg" title="Foto">
+                    <img src="img/fotky/2015/7_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/8.jpg" title="Foto">
+                    <img src="img/fotky/2015/8_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/9.jpg" title="Foto">
+                    <img src="img/fotky/2015/9_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/10.jpg" title="Foto">
+                    <img src="img/fotky/2015/10_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/11.jpg" title="Foto">
+                    <img src="img/fotky/2015/11_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/12.jpg" title="Foto">
+                    <img src="img/fotky/2015/12_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/13.jpg" title="Foto">
+                    <img src="img/fotky/2015/13_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/14.jpg" title="Foto">
+                    <img src="img/fotky/2015/14_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/15.jpg" title="Foto">
+                    <img src="img/fotky/2015/15_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/16.jpg" title="Foto">
+                    <img src="img/fotky/2015/16_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/17.jpg" title="Foto">
+                    <img src="img/fotky/2015/17_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/18.jpg" title="Foto">
+                    <img src="img/fotky/2015/18_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/19.jpg" title="Foto">
+                    <img src="img/fotky/2015/19_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/20.jpg" title="Foto">
+                    <img src="img/fotky/2015/20_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/21.jpg" title="Foto">
+                    <img src="img/fotky/2015/21_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/22.jpg" title="Foto">
+                    <img src="img/fotky/2015/22_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/201523.jpg" title="Foto">
+                    <img src="img/fotky/2015/23_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/24.jpg" title="Foto">
+                    <img src="img/fotky/2015/24_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/25.jpg" title="Foto">
+                    <img src="img/fotky/2015/25_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/26.jpg" title="Foto">
+                    <img src="img/fotky/2015/26_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/27.jpg" title="Foto">
+                    <img src="img/fotky/2015/27_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/28.jpg" title="Foto">
+                    <img src="img/fotky/2015/28_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/29.jpg" title="Foto">
+                    <img src="img/fotky/2015/29_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/30.jpg" title="Foto">
+                    <img src="img/fotky/2015/30_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/31.jpg" title="Foto">
+                    <img src="img/fotky/2015/31_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/32.jpg" title="Foto">
+                    <img src="img/fotky/2015/32_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/33.jpg" title="Foto">
+                    <img src="img/fotky/2015/33_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/34.jpg" title="Foto">
+                    <img src="img/fotky/2015/34_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/35.jpg" title="Foto">
+                    <img src="img/fotky/2015/35_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/36.jpg" title="Foto">
+                    <img src="img/fotky/2015/36_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/37.jpg" title="Foto">
+                    <img src="img/fotky/2015/37_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/38.jpg" title="Foto">
+                    <img src="img/fotky/2015/38_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/39.jpg" title="Foto">
+                    <img src="img/fotky/2015/39_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/40.jpg" title="Foto">
+                    <img src="img/fotky/2015/40_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/41.jpg" title="Foto">
+                    <img src="img/fotky/2015/41_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/42.jpg" title="Foto">
+                    <img src="img/fotky/2015/42_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/43.jpg" title="Foto">
+                    <img src="img/fotky/2015/43_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/44.jpg" title="Foto">
+                    <img src="img/fotky/2015/44_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/45.jpg" title="Foto">
+                    <img src="img/fotky/2015/45_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/46.jpg" title="Foto">
+                    <img src="img/fotky/2015/46_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/47.jpg" title="Foto">
+                    <img src="img/fotky/2015/47_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/48.jpg" title="Foto">
+                    <img src="img/fotky/2015/48_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/49.jpg" title="Foto">
+                    <img src="img/fotky/2015/49_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/50.jpg" title="Foto">
+                    <img src="img/fotky/2015/50_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/51.jpg" title="Foto">
+                    <img src="img/fotky/2015/51_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/52.jpg" title="Foto">
+                    <img src="img/fotky/2015/52_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/53.jpg" title="Foto">
+                    <img src="img/fotky/2015/53_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/54.jpg" title="Foto">
+                    <img src="img/fotky/2015/54_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/55.jpg" title="Foto">
+                    <img src="img/fotky/2015/55_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/56.jpg" title="Foto">
+                    <img src="img/fotky/2015/56_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/57.jpg" title="Foto">
+                    <img src="img/fotky/2015/57_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/58.jpg" title="Foto">
+                    <img src="img/fotky/2015/58_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/59.jpg" title="Foto">
+                    <img src="img/fotky/2015/59_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/60.jpg" title="Foto">
+                    <img src="img/fotky/2015/60_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/61.jpg" title="Foto">
+                    <img src="img/fotky/2015/61_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/62.jpg" title="Foto">
+                    <img src="img/fotky/2015/62_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/63.jpg" title="Foto">
+                    <img src="img/fotky/2015/63_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/64.jpg" title="Foto">
+                    <img src="img/fotky/2015/64_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/65.jpg" title="Foto">
+                    <img src="img/fotky/2015/65_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/66.jpg" title="Foto">
+                    <img src="img/fotky/2015/66_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/67.jpg" title="Foto">
+                    <img src="img/fotky/2015/67_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/68.jpg" title="Foto">
+                    <img src="img/fotky/2015/68_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/69.jpg" title="Foto">
+                    <img src="img/fotky/2015/69_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/70.jpg" title="Foto">
+                    <img src="img/fotky/2015/70_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/71.jpg" title="Foto">
+                    <img src="img/fotky/2015/71_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/72.jpg" title="Foto">
+                    <img src="img/fotky/2015/72_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/73.jpg" title="Foto">
+                    <img src="img/fotky/2015/73_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/74.jpg" title="Foto">
+                    <img src="img/fotky/2015/74_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/75.jpg" title="Foto">
+                    <img src="img/fotky/2015/75_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/76.jpg" title="Foto">
+                    <img src="img/fotky/2015/76_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/77.jpg" title="Foto">
+                    <img src="img/fotky/2015/77_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/78.jpg" title="Foto">
+                    <img src="img/fotky/2015/78_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/79.jpg" title="Foto">
+                    <img src="img/fotky/2015/79_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/80.jpg" title="Foto">
+                    <img src="img/fotky/2015/80_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/81.jpg" title="Foto">
+                    <img src="img/fotky/2015/81_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/82.jpg" title="Foto">
+                    <img src="img/fotky/2015/82_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/83.jpg" title="Foto">
+                    <img src="img/fotky/2015/83_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/84.jpg" title="Foto">
+                    <img src="img/fotky/2015/84_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/85.jpg" title="Foto">
+                    <img src="img/fotky/2015/85_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/86.jpg" title="Foto">
+                    <img src="img/fotky/2015/86_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/87.jpg" title="Foto">
+                    <img src="img/fotky/2015/87_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/88.jpg" title="Foto">
+                    <img src="img/fotky/2015/88_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/89.jpg" title="Foto">
+                    <img src="img/fotky/2015/89_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/90.jpg" title="Foto">
+                    <img src="img/fotky/2015/90_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/91.jpg" title="Foto">
+                    <img src="img/fotky/2015/91_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/92.jpg" title="Foto">
+                    <img src="img/fotky/2015/92_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/93.jpg" title="Foto">
+                    <img src="img/fotky/2015/93_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/94.jpg" title="Foto">
+                    <img src="img/fotky/2015/94_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/95.jpg" title="Foto">
+                    <img src="img/fotky/2015/95_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/96.jpg" title="Foto">
+                    <img src="img/fotky/2015/96_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/97.jpg" title="Foto">
+                    <img src="img/fotky/2015/97_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/98.jpg" title="Foto">
+                    <img src="img/fotky/2015/98_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/99.jpg" title="Foto">
+                    <img src="img/fotky/2015/99_tn.jpg" alt="Foto">
+                </a>
+
+                <a href="img/fotky/2015/100.jpg" title="Foto">
+                    <img src="img/fotky/2015/100_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/101.jpg" title="Foto">
+                    <img src="img/fotky/2015/101_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/102.jpg" title="Foto">
+                    <img src="img/fotky/2015/102_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/103.jpg" title="Foto">
+                    <img src="img/fotky/2015/103_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/104.jpg" title="Foto">
+                    <img src="img/fotky/2015/104_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/105.jpg" title="Foto">
+                    <img src="img/fotky/2015/105_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/106.jpg" title="Foto">
+                    <img src="img/fotky/2015/106_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/107.jpg" title="Foto">
+                    <img src="img/fotky/2015/107_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/108.jpg" title="Foto">
+                    <img src="img/fotky/2015/108_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/109.jpg" title="Foto">
+                    <img src="img/fotky/2015/109_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/110.jpg" title="Foto">
+                    <img src="img/fotky/2015/110_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/111.jpg" title="Foto">
+                    <img src="img/fotky/2015/111_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/112.jpg" title="Foto">
+                    <img src="img/fotky/2015/112_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/113.jpg" title="Foto">
+                    <img src="img/fotky/2015/113_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/114.jpg" title="Foto">
+                    <img src="img/fotky/2015/114_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/115.jpg" title="Foto">
+                    <img src="img/fotky/2015/115_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/116.jpg" title="Foto">
+                    <img src="img/fotky/2015/116_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/117.jpg" title="Foto">
+                    <img src="img/fotky/2015/117_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/118.jpg" title="Foto">
+                    <img src="img/fotky/2015/118_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/119.jpg" title="Foto">
+                    <img src="img/fotky/2015/119_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/120.jpg" title="Foto">
+                    <img src="img/fotky/2015/120_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/121.jpg" title="Foto">
+                    <img src="img/fotky/2015/121_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/122.jpg" title="Foto">
+                    <img src="img/fotky/2015/122_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015213.jpg" title="Foto">
+                    <img src="img/fotky/2015/123_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/124.jpg" title="Foto">
+                    <img src="img/fotky/2015/124_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/125.jpg" title="Foto">
+                    <img src="img/fotky/2015/125_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/126.jpg" title="Foto">
+                    <img src="img/fotky/2015/126_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/127.jpg" title="Foto">
+                    <img src="img/fotky/2015/127_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/128.jpg" title="Foto">
+                    <img src="img/fotky/2015/128_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/129.jpg" title="Foto">
+                    <img src="img/fotky/2015/129_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/130.jpg" title="Foto">
+                    <img src="img/fotky/2015/130_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/131.jpg" title="Foto">
+                    <img src="img/fotky/2015/131_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/132.jpg" title="Foto">
+                    <img src="img/fotky/2015/132_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/133.jpg" title="Foto">
+                    <img src="img/fotky/2015/133_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/134.jpg" title="Foto">
+                    <img src="img/fotky/2015/134_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/135.jpg" title="Foto">
+                    <img src="img/fotky/2015/135_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/136.jpg" title="Foto">
+                    <img src="img/fotky/2015/136_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/137.jpg" title="Foto">
+                    <img src="img/fotky/2015/137_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/138.jpg" title="Foto">
+                    <img src="img/fotky/2015/138_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/139.jpg" title="Foto">
+                    <img src="img/fotky/2015/139_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/140.jpg" title="Foto">
+                    <img src="img/fotky/2015/140_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/141.jpg" title="Foto">
+                    <img src="img/fotky/2015/141_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/142.jpg" title="Foto">
+                    <img src="img/fotky/2015/142_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/143.jpg" title="Foto">
+                    <img src="img/fotky/2015/143_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/144.jpg" title="Foto">
+                    <img src="img/fotky/2015/144_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/145.jpg" title="Foto">
+                    <img src="img/fotky/2015/145_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/146.jpg" title="Foto">
+                    <img src="img/fotky/2015/146_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/147.jpg" title="Foto">
+                    <img src="img/fotky/2015/147_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/148.jpg" title="Foto">
+                    <img src="img/fotky/2015/148_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/149.jpg" title="Foto">
+                    <img src="img/fotky/2015/149_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/150.jpg" title="Foto">
+                    <img src="img/fotky/2015/150_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/151.jpg" title="Foto">
+                    <img src="img/fotky/2015/151_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/152.jpg" title="Foto">
+                    <img src="img/fotky/2015/152_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/153.jpg" title="Foto">
+                    <img src="img/fotky/2015/153_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/154.jpg" title="Foto">
+                    <img src="img/fotky/2015/154_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/155.jpg" title="Foto">
+                    <img src="img/fotky/2015/155_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/156.jpg" title="Foto">
+                    <img src="img/fotky/2015/156_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/157.jpg" title="Foto">
+                    <img src="img/fotky/2015/157_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/158.jpg" title="Foto">
+                    <img src="img/fotky/2015/158_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/159.jpg" title="Foto">
+                    <img src="img/fotky/2015/159_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/160.jpg" title="Foto">
+                    <img src="img/fotky/2015/160_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/161.jpg" title="Foto">
+                    <img src="img/fotky/2015/161_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/162.jpg" title="Foto">
+                    <img src="img/fotky/2015/162_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/163.jpg" title="Foto">
+                    <img src="img/fotky/2015/163_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/164.jpg" title="Foto">
+                    <img src="img/fotky/2015/164_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/165.jpg" title="Foto">
+                    <img src="img/fotky/2015/165_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/166.jpg" title="Foto">
+                    <img src="img/fotky/2015/166_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/167.jpg" title="Foto">
+                    <img src="img/fotky/2015/167_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/168.jpg" title="Foto">
+                    <img src="img/fotky/2015/168_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/169.jpg" title="Foto">
+                    <img src="img/fotky/2015/169_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/170.jpg" title="Foto">
+                    <img src="img/fotky/2015/170_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/171.jpg" title="Foto">
+                    <img src="img/fotky/2015/171_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/172.jpg" title="Foto">
+                    <img src="img/fotky/2015/172_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/173.jpg" title="Foto">
+                    <img src="img/fotky/2015/173_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/174.jpg" title="Foto">
+                    <img src="img/fotky/2015/174_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/175.jpg" title="Foto">
+                    <img src="img/fotky/2015/175_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/176.jpg" title="Foto">
+                    <img src="img/fotky/2015/176_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/177.jpg" title="Foto">
+                    <img src="img/fotky/2015/177_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/178.jpg" title="Foto">
+                    <img src="img/fotky/2015/178_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/179.jpg" title="Foto">
+                    <img src="img/fotky/2015/179_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/180.jpg" title="Foto">
+                    <img src="img/fotky/2015/180_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/181.jpg" title="Foto">
+                    <img src="img/fotky/2015/181_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/182.jpg" title="Foto">
+                    <img src="img/fotky/2015/182_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/183.jpg" title="Foto">
+                    <img src="img/fotky/2015/183_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/184.jpg" title="Foto">
+                    <img src="img/fotky/2015/184_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/185.jpg" title="Foto">
+                    <img src="img/fotky/2015/185_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/186.jpg" title="Foto">
+                    <img src="img/fotky/2015/186_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/187.jpg" title="Foto">
+                    <img src="img/fotky/2015/187_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/188.jpg" title="Foto">
+                    <img src="img/fotky/2015/188_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/189.jpg" title="Foto">
+                    <img src="img/fotky/2015/189_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/190.jpg" title="Foto">
+                    <img src="img/fotky/2015/190_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/191.jpg" title="Foto">
+                    <img src="img/fotky/2015/191_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/192.jpg" title="Foto">
+                    <img src="img/fotky/2015/192_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/193.jpg" title="Foto">
+                    <img src="img/fotky/2015/193_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/194.jpg" title="Foto">
+                    <img src="img/fotky/2015/194_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/195.jpg" title="Foto">
+                    <img src="img/fotky/2015/195_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/196.jpg" title="Foto">
+                    <img src="img/fotky/2015/196_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/197.jpg" title="Foto">
+                    <img src="img/fotky/2015/197_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/198.jpg" title="Foto">
+                    <img src="img/fotky/2015/198_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/199.jpg" title="Foto">
+                    <img src="img/fotky/2015/199_tn.jpg" alt="Foto">
+                </a>
+
+
+                <a href="img/fotky/2015/200.jpg" title="Foto">
+                    <img src="img/fotky/2015/200_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/201.jpg" title="Foto">
+                    <img src="img/fotky/2015/201_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/202.jpg" title="Foto">
+                    <img src="img/fotky/2015/202_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/203.jpg" title="Foto">
+                    <img src="img/fotky/2015/203_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/204.jpg" title="Foto">
+                    <img src="img/fotky/2015/204_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/205.jpg" title="Foto">
+                    <img src="img/fotky/2015/205_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/206.jpg" title="Foto">
+                    <img src="img/fotky/2015/206_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/207.jpg" title="Foto">
+                    <img src="img/fotky/2015/207_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/208.jpg" title="Foto">
+                    <img src="img/fotky/2015/208_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/209.jpg" title="Foto">
+                    <img src="img/fotky/2015/209_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/210.jpg" title="Foto">
+                    <img src="img/fotky/2015/210_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/211.jpg" title="Foto">
+                    <img src="img/fotky/2015/211_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/212.jpg" title="Foto">
+                    <img src="img/fotky/2015/212_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/213.jpg" title="Foto">
+                    <img src="img/fotky/2015/213_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/214.jpg" title="Foto">
+                    <img src="img/fotky/2015/214_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/215.jpg" title="Foto">
+                    <img src="img/fotky/2015/215_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/216.jpg" title="Foto">
+                    <img src="img/fotky/2015/216_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/217.jpg" title="Foto">
+                    <img src="img/fotky/2015/217_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/218.jpg" title="Foto">
+                    <img src="img/fotky/2015/218_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/219.jpg" title="Foto">
+                    <img src="img/fotky/2015/219_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/220.jpg" title="Foto">
+                    <img src="img/fotky/2015/220_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/221.jpg" title="Foto">
+                    <img src="img/fotky/2015/221_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/222.jpg" title="Foto">
+                    <img src="img/fotky/2015/222_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015223.jpg" title="Foto">
+                    <img src="img/fotky/2015/223_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/224.jpg" title="Foto">
+                    <img src="img/fotky/2015/224_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/225.jpg" title="Foto">
+                    <img src="img/fotky/2015/225_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/226.jpg" title="Foto">
+                    <img src="img/fotky/2015/226_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/227.jpg" title="Foto">
+                    <img src="img/fotky/2015/227_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/228.jpg" title="Foto">
+                    <img src="img/fotky/2015/228_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/229.jpg" title="Foto">
+                    <img src="img/fotky/2015/229_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/230.jpg" title="Foto">
+                    <img src="img/fotky/2015/230_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/231.jpg" title="Foto">
+                    <img src="img/fotky/2015/231_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/232.jpg" title="Foto">
+                    <img src="img/fotky/2015/232_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/233.jpg" title="Foto">
+                    <img src="img/fotky/2015/233_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/234.jpg" title="Foto">
+                    <img src="img/fotky/2015/234_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/235.jpg" title="Foto">
+                    <img src="img/fotky/2015/235_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/236.jpg" title="Foto">
+                    <img src="img/fotky/2015/236_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/237.jpg" title="Foto">
+                    <img src="img/fotky/2015/237_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/238.jpg" title="Foto">
+                    <img src="img/fotky/2015/238_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/239.jpg" title="Foto">
+                    <img src="img/fotky/2015/239_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/240.jpg" title="Foto">
+                    <img src="img/fotky/2015/240_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/241.jpg" title="Foto">
+                    <img src="img/fotky/2015/241_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/242.jpg" title="Foto">
+                    <img src="img/fotky/2015/242_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/243.jpg" title="Foto">
+                    <img src="img/fotky/2015/243_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/244.jpg" title="Foto">
+                    <img src="img/fotky/2015/244_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/245.jpg" title="Foto">
+                    <img src="img/fotky/2015/245_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/246.jpg" title="Foto">
+                    <img src="img/fotky/2015/246_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/247.jpg" title="Foto">
+                    <img src="img/fotky/2015/247_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/248.jpg" title="Foto">
+                    <img src="img/fotky/2015/248_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/249.jpg" title="Foto">
+                    <img src="img/fotky/2015/249_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/250.jpg" title="Foto">
+                    <img src="img/fotky/2015/250_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/251.jpg" title="Foto">
+                    <img src="img/fotky/2015/251_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/252.jpg" title="Foto">
+                    <img src="img/fotky/2015/252_tn.jpg" alt="Foto">
+                </a>
+                <a href="img/fotky/2015/253.jpg" title="Foto">
+                    <img src="img/fotky/2015/253_tn.jpg" alt="Foto">
+                </a>
+
+            </div>
+            <p>
+                <b>Informácie o autorovi fotografií: </b>
+            </p>
+            <span class="glyphicon glyphicon-camera"></span>
+            <a href="https://www.facebook.com/Voviphoto/">VoVi photo</a>
+            <br>
+
+        </div>
+
+        <h3 class="ancient">Video sekcia</h3>
+        <br>
+        <div class="well">
+
+
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#videa2017">Ročník 2017</button> Pre zobrazenie kliknite na tlačidlo
+
+            <br>
+            <br>
+
+            <div id="videa2017" class="collapse">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/sIlhPJ7oGMY" frameborder="0" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/eomeBLofxSc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Qx92hlldGY8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/SW_yiSWlNRY" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="well">
+
+
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#videa2016">Ročník 2016</button> Pre zobrazenie kliknite na tlačidlo
+
+            <br>
+            <br>
+
+            <div id="videa2016" class="collapse">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/T7Dn1hDNcq0" frameborder="0" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/s0CRVpw_CA8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/LJ-W6JG9138" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ISHAVw9CHxI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+        <div class="well">
+
+
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#videa2015">Ročník 2015</button> Pre zobrazenie kliknite na tlačidlo
+
+            <br>
+            <br>
+
+            <div id="videa2015" class="collapse">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/OsmBaqUUV0U" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/UdUTgeCBty4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <script>
+
+            document.getElementById('fotky2017').onclick = function (event) {
+                event = event || window.event;
+                var target = event.target || event.srcElement,
+                    link = target.src ? target.parentNode : target,
+                    options = { index: link, event: event },
+                    fotky2017 = this.getElementsByTagName('a');
+                blueimp.Gallery(fotky2017, options);
+            };
+
+            document.getElementById('fotky2016').onclick = function (event) {
+                event = event || window.event;
+                var target = event.target || event.srcElement,
+                    link = target.src ? target.parentNode : target,
+                    options = { index: link, event: event },
+                    fotky2016 = this.getElementsByTagName('a');
+                blueimp.Gallery(fotky2016, options);
+            };
+
+            document.getElementById('fotky2015').onclick = function (event) {
+                event = event || window.event;
+                var target = event.target || event.srcElement,
+                    link = target.src ? target.parentNode : target,
+                    options = { index: link, event: event },
+                    fotky2015 = this.getElementsByTagName('a');
+                blueimp.Gallery(fotky2015, options);
+            };
+
+
+        </script>
+
+
+
+
+
+        <footer>
+            <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12"></div>
+                        <br>
+                        <p align="center">Deithwenfjell</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+        <script src="js/blueimp-gallery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

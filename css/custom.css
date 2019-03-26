@@ -1,0 +1,172 @@
+
+.jumbotron
+{
+   color: white;
+   background-color: #663300;
+   text-shadow: 2px 2px black;
+   font-family: Aniron;
+   /*text-align: center;*/
+   background-image: url("../img/lista.jpg");
+   background-position: center;
+    background-position-x:  left;
+    background-position-y: top;
+    background-size: cover;
+   
+}
+
+.navbar.navbar-default
+{
+   color: white;
+   background-color: #663300;;
+   border-color: #daddde;
+   text-shadow: 1px 1px black;
+   font-family: Aniron;
+}
+
+.navbar-defaul#df2323ar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus 
+{
+color: yellow;  /*Sets the text hover color on navbar*/
+}
+
+.container-fluid .navbar.navbar-default .container-fluid .nav.navbar-nav li a:hover, 
+.container-fluid .navbar.navbar-default .container-fluid .nav.navbar-nav li a:focus,
+.container-fluid .navbar.navbar-default .container-fluid .nav.navbar-nav li.active a:hover,
+.container-fluid .navbar.navbar-default .container-fluid .nav.navbar-nav li.active a:focus,
+.container-fluid .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a:hover,
+.container-fluid .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a:focus,
+.container-fluid .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li.active a:hover,
+.container-fluid .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li.active a:focus
+{
+    color: #a76600;
+}
+
+.container-fluid .navbar.navbar-default .container-fluid .navbar-header .navbar-brand,
+.container-fluid .navbar.navbar-default .container-fluid .nav.navbar-nav li a,
+.container-fluid .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a,
+.container-fluid .navbar.navbar-default .navbar-header .navbar-brand
+
+{
+    color: white;
+    
+}
+
+.container-fluid .navbar.navbar-default .container-fluid .nav.navbar-nav li.active a,
+.container-fluid .navbar.navbar-default .navbar-header button.navbar-toggle span:active,
+.container-fluid .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li.active a
+{
+    color: white;
+    background-color: #663300;;
+
+}
+
+img#logo
+{
+    width: 500px;
+    position: top;
+}
+
+#welcome
+{
+    font-family: Aniron;
+}
+
+.ancient
+{
+    font-family: Aniron;
+    text-align: center;
+}
+
+img.ico
+{
+    align-content: center;
+    /*float: left;*/
+}
+
+img.progvlajky
+{
+    float: right;
+}
+
+body
+{
+    background-color: #daddde;
+    background-image: url("../img/parchement.jpg");
+}
+
+.well{
+    background-color: #dabc78;
+    border-color: #002f41;
+    color: black;
+}
+
+footer
+{
+  position: relative;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;    
+}
+
+.navbar.navbar-default.navbar-fixed-bottom .container .navbar-text.pull-right h6
+{
+    color: white;
+}
+
+.container-fluid h2
+{
+    color: black;
+    font-style: italic;
+    text-align: center;
+}
+
+.navbar-default .navbar-toggle .icon-bar 
+{
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+    background-color: #663300;;
+}
+
+.navbar-default .navbar-toggle 
+{
+    border-color: white;
+}
+
+@font-face
+{
+    font-family:'Aniron';
+    src:url('../fonts/custom.ttf');
+}
+
+.btn,
+.btn-info {
+    color: #fff;
+    background-color: #804000;
+    border-color: #663300;
+}
+
+.btn:active,
+.btn:focus,
+.btn:visited,
+.btn:hover,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:visited,
+.btn-info:hover
+ {
+    color: #fff;
+    background-color: #a45200;
+    border-color: #663300;
+}
+
+.affix
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999; /*transparency*/
+}

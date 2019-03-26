@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="data.xsl"?>
+<zoznam>
+<clen>
+    <meno>Viktor</meno>
+    <nick>Greven</nick>
+    <prezvisko>Hrabuša</prezvisko>
+    <obrazok src="greven.jpg">greven.jpg</obrazok>
+    <mesto>Sučany</mesto>
+    <vojsko>
+        <uloha>ťažká pechota</uloha>
+        <zbrane>sekera, meč, kladivo, palcát, v kombinácii so štítom</zbrane>
+        <zbroj>plnoplátová</zbroj>
+    </vojsko>
+</clen>
+
+<clen>
+    <meno>Dávid</meno>
+    <nick>Kozel</nick>
+    <prezvisko>Klinovský</prezvisko>
+    <obrazok src="kozel.jpg">kozel.jpg</obrazok>
+    <mesto>Dolný Kubín</mesto>
+    <vojsko>
+        <uloha>ťažká pechota</uloha>
+        <zbrane>sekera, meč, v kombinácii so štítom</zbrane>
+        <zbroj>poloplátová</zbroj>
+    </vojsko>
+</clen>
+
+<clen>
+    <meno>Marek</meno>
+    <nick>Troll</nick>
+    <prezvisko>Meško</prezvisko>
+    <obrazok src="troll.jpg">troll.jpg</obrazok>
+    <mesto>Vyšný Kubín</mesto>
+    <vojsko>
+        <uloha>ľahká pechota</uloha>
+        <zbrane>jedenapolručný meč, kopija</zbrane>
+        <zbroj>krúžková</zbroj>
+    </vojsko>
+</clen>
+
+<clen>
+    <meno>Filip</meno>
+    <nick>Feldkurát</nick>
+    <prezvisko>Klinovský</prezvisko>
+    <obrazok src="ss.jpg">ss.jpg</obrazok>
+    <mesto>Dolný Kubín</mesto>
+    <vojsko>
+        <uloha>ľahká pechota</uloha>
+        <zbrane>falchion, kopija</zbrane>
+        <zbroj>krúžková</zbroj>
+    </vojsko>
+</clen>
+</zoznam>

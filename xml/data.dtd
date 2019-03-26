@@ -1,0 +1,13 @@
+<!DOCTYPE zoznam [
+<!ELEMENT zoznam (clen*)>
+<!ELEMENT clen (meno, nick, priezvisko, obrazok, mesto, vojsko)>
+<!ELEMENT meno (#PCDATA)>
+<!ELEMENT nick (#PCDATA)>
+<!ELEMENT priezvisko (#PCDATA)>
+<!ELEMENT obrazok (#PCDATA)>
+<!ELEMENT mesto (#PCDATA)>
+<!ELEMENT vojsko (uloha, zbrane, zbroj)>
+<!ELEMENT uloha (#PCDATA)>
+<!ELEMENT zbrane (#PCDATA)>
+<!ELEMENT zbroj (#PCDATA)>
+]>
